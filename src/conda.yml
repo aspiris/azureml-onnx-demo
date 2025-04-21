@@ -1,0 +1,10 @@
+name: iris-rf-onnx-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=1.23.5
+  - pip=23.0.1
+  - pip:
+      - onnxruntime==1.21.0
+      - azureml-inference-server-http
